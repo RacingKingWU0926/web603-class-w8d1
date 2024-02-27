@@ -9,11 +9,10 @@ $ npx create-react-app redux-counter
 
 With `redux-counter/` being the current directory, install the following dependencies by
 ```bash
-$ npm install redux react-redux redux-thunk
+$ npm install redux react-redux redux-thunk @reduxjs/toolkit
 
 $ npm install --save-dev @babel/runtime typescript
 ```
-
 
 Replicate the files as in the Code Sandbox given, and complete the code based on the in-class demo.
 
