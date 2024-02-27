@@ -29,10 +29,7 @@ export const reset = () => {
   }
 }
 
-export const changeCountTo = (numberChange) => {
-  return function (dispatch) {
-    dispatch({
-      type:actionTypes.CHANGE_COUNT, payload: numberChange
-    })
-  }
-}
+export const changeCountTo = (newCount) => ({
+  type: actionTypes.CHANGE_COUNT,
+  payload: newCount
+});

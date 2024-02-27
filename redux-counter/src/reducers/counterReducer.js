@@ -1,7 +1,7 @@
 import { actionTypes } from "../actions/actionTypes";
 
 const initialState = {
-  count:10
+  count: 0
 }
 
 const counterReducer = (state=initialState, action) => {
